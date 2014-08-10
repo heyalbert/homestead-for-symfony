@@ -10,7 +10,8 @@ block="server {
     charset utf-8;
 
     location / {
-        try_files \$uri \$uri/ /index.php?\$query_string;
+        # try to serve file directly, fallback to app.php
+        try_files $uri /app.php$is_args$args;
     }
 
     location = /favicon.ico { access_log off; log_not_found off; }
