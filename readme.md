@@ -1,5 +1,5 @@
-# Laravel Homestead
+# Symfony Homestead
 
-The official Laravel local development environment.
+The unofficial Symfony 2 local development environment.
 
-Official documentation [is located here](http://laravel.com/docs/homestead?version=4.2).
+documentation [is located here](http://laravel.com/docs/homestead?version=4.2).
